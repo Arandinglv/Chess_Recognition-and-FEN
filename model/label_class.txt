@@ -1,0 +1,13 @@
+0: 00rook black 
+1: 01knight black 
+2: 02bishop black 
+3: 03queen black 
+4: 04king black 
+5: 05sodier black 
+6: 06rook white 
+7: 07knight white 
+8: 08bishop white 
+9: 09queen white 
+10: 10king white 
+11: 11sodier white 
+12: 12empty 
