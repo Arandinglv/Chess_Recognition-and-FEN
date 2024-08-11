@@ -23,7 +23,9 @@ Chess
 `recognize.py` contains the function of the chessboard division into `8*8` pieces for recognition by caliing the `Board` class from `read_contour.py` to get the square chessboard. Load the training weight and generate the recognition results. 
 
 `Compare.py` is used to generate changes in the state of the chessboard before and after. 
+
 --------------------------------------------------------------
+
 `rename.py` 是可选的，用于重命名图像。
 
 `Data_Aug.py` 是可选的，用于数据增强。参考：https://blog.csdn.net/qq_38973721/article/details/128700920
@@ -48,7 +50,7 @@ Chess
 ```
 `FEN.py` is **imcomplete**, used for converting the chessboard data into FEN string. 
 - **Dataset Directory**
-All the images are divided into 13 classes, representing 12 types of pieces and empty status. Images are collected from the `chess.com` screenshots.  
+All the images are divided into 13 classes, representing 12 types of pieces and empty status. Images are collected from the [`chess.com`](https://www.chess.com/) screenshots.  
 
 所有图像分为13类，代表12种棋子和空状态。图片是从“chess.com”屏幕截图中收集的。
 ![resnet](https://github.com/user-attachments/assets/22d811c6-53fb-484d-bfba-0142c07532a2)
@@ -88,3 +90,5 @@ All the datasets can be downloaded from:
 URL：https://pan.baidu.com/s/19nQvXf9HiQ8flVkJFYEafw?pwd=hg04 
 
 CODE：hg04
+
+***Note that the `new2.py` contains some methods to crawl web data: ["chess.com"](https://www.chess.com/). Instead of using conventional mathods, I screenshot some icon images and write a program to achieve icon matching and then implement multiple functions. This is a half-effort idea, but subject to company requirements, I have to do this.***
