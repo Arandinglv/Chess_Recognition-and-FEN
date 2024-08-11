@@ -1,5 +1,4 @@
 # Chess_Recognition-and-FEN
-## Directory
 **Root Directory**
 ```
 Chess
@@ -8,6 +7,7 @@ Chess
 ├─model
 ```
 - **`model` Directory**
+
 `rename.py` is optional, used for renaming the images.
 
 `Data_Aug.py` is optional, used for data augmentation. Referrence: https://blog.csdn.net/qq_38973721/article/details/128700920
@@ -33,7 +33,8 @@ Chess
 `add_Data.py` 是可选的，用户用于从其他文件夹添加图像。
 
 `dataloader.py` 覆盖此数据集的 `Dataset` 类。
-“model.py”是网络架构，使用“modules.py”中的模块。该网络对 ResNet50 进行了微调。其架构如图1所示。
+
+`model.py`是网络架构，使用`modules.py`中的模块。该网络对 ResNet50 进行了微调。其架构如图1所示。
 
 `train.py` 和 `valid.py` 用于训练和测试模型。
 
@@ -50,6 +51,7 @@ Chess
 ```
 `FEN.py` is **imcomplete**, used for converting the chessboard data into FEN string. 
 - **Dataset Directory**
+
 All the images are divided into 13 classes, representing 12 types of pieces and empty status. Images are collected from the [`chess.com`](https://www.chess.com/) screenshots.  
 
 所有图像分为13类，代表12种棋子和空状态。图片是从“chess.com”屏幕截图中收集的。
